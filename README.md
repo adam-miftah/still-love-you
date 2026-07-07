@@ -1,16 +1,145 @@
-# React + Vite
+# ❤️ Still Love You
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple interactive React website created to answer one question:
 
-Currently, two official plugins are available:
+> **"Masih suka?"**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Instead of replying with a normal chat message, I decided to build a small web experience.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ❤️ Interactive Story Modal
+- ⌨️ Typewriter Animation
+- 🎵 Background Music
+- 💖 Floating Hearts Animation
+- 🎉 Heart Confetti
+- ✨ Glassmorphism UI
+- 📱 Responsive Design
+- ⚡ Built with React + Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+Coming soon...
+
+---
+
+## 🚀 Tech Stack
+
+- React
+- Vite
+- CSS3
+- JavaScript (ES6)
+
+---
+
+## 📦 Installation
+
+Clone this repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/still-love-you.git
+```
+
+Go to project folder
+
+```bash
+cd still-love-you
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🏗 Build
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📁 Project Structure
+
+```
+still-love-you/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── music/
+│   │   └── fonts/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── LoadingScreen.jsx
+│   │   ├── MessageModal.jsx
+│   │   ├── Typewriter.jsx
+│   │   ├── FloatingHearts.jsx
+│   │   ├── MusicButton.jsx
+│   │   ├── Confetti.jsx
+│   │   ├── CustomCursor.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── pages/
+│   │   └── Home.jsx
+│   │
+│   ├── styles/
+│   │   └── global.css
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🎯 Inspiration
+
+This project was created as a fun and creative way to answer a simple question through code instead of a regular chat message.
+
+---
+
+## 💖 Author
+
+Made with ❤️ by **Adam Miftah**
+
+GitHub:
+https://github.com/adam-miftah
+
+---
+
+## 📄 License
+
+This project is for personal and educational purposes.
